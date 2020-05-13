@@ -17,3 +17,7 @@ To build and run the server and client, run the following:
 bazel run :greeter_server
 bazel run :greeter_client
 ```
+To build and run the custom test file:
+```
+sudo bazel run :gtest_samples
+```
